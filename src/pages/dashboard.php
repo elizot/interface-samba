@@ -1,7 +1,7 @@
 <div class="card-columns">
     <div class="card bg-warning shadow">
         <div class="card-body">
-            <i data-feather="cpu"></i>&nbsp <span class="font-weight-bold">CPU</span>
+            <i class="fas fa-microchip"></i>&nbsp <span class="font-weight-bold">CPU</span>
             <div class="progress mt-2">
                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
                     aria-valuemax="100" style="width:40%">
@@ -12,7 +12,7 @@
     </div>
     <div class="card bg-warning shadow">
         <div class="card-body">
-            <i data-feather="hard-drive"></i>&nbsp <span class="font-weight-bold">RAM</span>
+            <i class="fas fa-memory"></i>    &nbsp <span class="font-weight-bold">RAM</span>
             <div class="progress mt-2">
                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
                     aria-valuemax="100" style="width:40%">
@@ -23,7 +23,7 @@
     </div>
     <div class="card bg-danger shadow">
         <div class="card-body">
-            <i data-feather="hard-drive"></i>&nbsp <span class="font-weight-bold">SWAP</span>
+            <i class="fas fa-hdd"></i> &nbsp <span class="font-weight-bold">SWAP</span>
             <div class="progress mt-2">
                 <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0"
                     aria-valuemax="100" style="width:40%">
@@ -35,9 +35,9 @@
 </div>
 
 <div class="card-group mt-2">
-    <div class="card bg-secondary shadow mr-2">
+    <div class="card bg-secondary shadow">
         <div class="card-body">
-            <i data-feather="info"></i>&nbsp
+            <i class="fas fa-info-circle"></i>&nbsp
             <table class="table tables-sm mt-2">
                 <tbody>
                     <tr>
@@ -60,7 +60,7 @@
     </div>
     <div class="card bg-info shadow">
         <div class="card-body">
-            <i data-feather="info"></i>&nbsp
+        <i class="fas fa-info-circle"></i>&nbsp
             <table class="table tables-sm mt-2">
                 <tbody>
                     <tr>

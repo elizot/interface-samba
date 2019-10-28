@@ -1,7 +1,7 @@
 var usuario;
 
 function diretorios() {
-    fetch('data/folder.json')
+    fetch('../data/folder.json')
         .then(res => res.json())
         .then(json => clickDir(json))
 }
@@ -57,7 +57,7 @@ function usuarios(j) {
                         $('#event_body').html(Inf(usuario));
                     } else {
                         const header = ''
-                        const body = `<img class="vertical-align img-card" src="assets/pasta.jpg">`
+                        const body = `<img class="vertical-align img-card" src="../assets/pasta.jpg">`
                         $('#event_body').html(body);
                         $('#event_header').html(header);
                     }

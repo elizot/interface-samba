@@ -1,4 +1,4 @@
-<div class="card-group mt-2">
+<div class="card-group mt-2 " style="min-height:580px;">
     <div class="card bg-warning shadow mr-2">
         <div class="card-header">
             <h6 class="text-dark text-center p-0">Grupos e Usuários</h6>
