@@ -1,22 +1,25 @@
-<div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper blue-grey darken-4 z-depth-4">
-            <a href="#" class="brand-logo logo"><img src="../assets/img/logo.svg" alt="logo"></a>
-            <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Unidades Organizacionais</a></li>
-                <li><a href="#">Grupos e Usuários</a></li>
-                <li><a href="#"><i class="large material-icons">exit_to_app</i></a></li>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar navbar-expand-lg navbar-dark .bg-gradient-dark shadow">
+    <a class="navbar-brand" href="?page=dashboard"><span class="text-warning"><i data-feather="server"></i>&nbspSamba4 Admin Center</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="?page=dashboard"><i data-feather="activity"></i>&nbspDashboard<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="?page=user_groups"><i data-feather="users"></i>&nbspUsuários e Grupos</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i data-feather="log-out"></i>&nbsp</a>
+            </li>
+        </ul>
+
     </div>
-
-    <ul class="sidenav" id="mobile-menu">
-        <li><a href="#">Dashboard</a></li>
-        <li><a href="#">Unidades Organizacionais</a></li>
-        <li><a href="#">Grupos e Usuários</a></li>
-        <li><a href="#">Sair</a></li>
-    </ul>
-
+</nav>

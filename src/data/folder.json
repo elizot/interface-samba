@@ -1,0 +1,17 @@
+[
+    { "id": "ajson1", "parent": "#", "text": "Documentos", "icon": "fas fa-folder-open" },
+    { "id": "ajson2", "parent": "#", "text": "Downloads", "icon": "fas fa-folder-open" },
+    { "id": "ajson3", "parent": "ajson2", "text": "ISO's", "icon": "fas fa-folder-open" },
+    { "id": "ajson4", "parent": "ajson2", "text": "PDF's", "icon": "fas fa-folder-open" },
+    { "id": "ajson5", "parent": "#", "text": "Arquivos de programas", "icon": "fas fa-folder-open" },
+    { "id": "ajson6", "parent": "ajson6", "text": "VirtualBox", "icon": "fas fa-folder-open" },
+    { "id": "ajson7", "parent": "ajson6", "text": "VMs", "icon": "fas fa-folder-open" },
+    { "id": "ajson8", "parent": "#", "text": "Arquivos de programas (x86)", "icon": "fas fa-folder-open" },
+    { "id": "ajson9", "parent": "ajson8", "text": "Windons SQL Server", "icon": "fas fa-folder-open" },
+    { "id": "ajson10", "parent": "ajson8", "text": "Windons Defender", "icon": "fas fa-folder-open" },
+    { "id": "ajson11", "parent": "ajson3", "text": "Debian 9", "icon": "fas fa-file" },
+    { "id": "ajson12", "parent": "ajson3", "text": "Ubuntu 16.04", "icon": "fas fa-file" },
+    { "id": "ajson14", "parent": "ajson4", "text": "tutorial_1.0", "icon": "fas fa-file-alt" },
+    { "id": "ajson15", "parent": "ajson4", "text": "tutorial_1.1", "icon": "fas fa-file-alt" },
+    { "id": "ajson16", "parent": "ajson4", "text": "tutorial_1.2", "icon": "fas fa-file-alt" }
+]
